@@ -4,20 +4,20 @@ A simple powershell script to debloat Windows.
 ### How to Use:
 1. Download this repo.
 2. Right Click on start button & open Powershell(Admin)
-3. This step depends on where you have downloaded the script.
+3. Type the following commands :
+    ```
+    Set-ExecutionPolicy Unrestricted
+    ```
+
+4. This step depends on where you have downloaded the script.
     We will assume that you have downloaded this scipt in downloads.
     ```
     cd ..
     cd C:\Users\<Your Windows username>\Downloads\
     cd .\Windows-Debloater-main\Windows-Debloater-main\
-    ```
-4. Type the following commands :
-    ```
-    Set-ExecutionPolicy Unrestricted
-    ```
-    ```
     .\debloat.ps1
     ```
+  
 *Note : Make sure to enable/disable the features you don't need by commenting/uncommenting them out.*
 
 ### What this script can do :
